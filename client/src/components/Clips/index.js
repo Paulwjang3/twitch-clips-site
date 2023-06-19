@@ -23,7 +23,7 @@ const Clips = ({ clipsData }) => {
             }}
           >
             <iframe
-              src={`https://clips.twitch.tv/embed?clip=${id}&parent=localhost`}
+              src={`https://clips.twitch.tv/embed?clip=${id}&parent=localhost&parent=https://twitch-clips1-75e676e3bdef.herokuapp.com/`}
               title="Twitch Clip"
               allowFullScreen
               style={{
